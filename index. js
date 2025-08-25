@@ -1,3 +1,4 @@
+npm install @discordjs/voice
 const express = require("express")
 const app = express();
 var listener = app.listen(process.env.PORT || 2000, function () {
